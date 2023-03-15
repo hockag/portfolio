@@ -1,68 +1,64 @@
-.header {
+.logo {
     position: absolute;
     width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 7px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    
-    letter-spacing: 0.03em;
-    
-    color: #2196F3;
-    
-}
+height: 31px;
+left: 215px;
+top: 7px;
 
-
-
-.studia {
-    position: absolute;
-width: 45px;
-height: 16px;
-left: 453px;
-top: 32px;
-
-font-family: 'Roboto';
+font-family: 'Raleway';
 font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
 
 color: #2196F3;
+;
 }
 
-
-.port {
+.studio {
     position: absolute;
-width: 72px;
-height: 16px;
-left: 552px;
-top: 32px;
+    width: 45px;
+    height: 16px;
+    left: 550px;
+    top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-color: #212121;
+    color: #2196F3;
 
 }
 
+.portfolio {
+        position: absolute;
+    width: 72px;
+    height: 16px;
+    left: 650px;
+    top: 32px;
 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-.cont_us {
+    color: #212121;
+
+}
+
+.contact {
     position: absolute;
 width: 64px;
 height: 16px;
-left: 679px;
+left: 770px;
 top: 32px;
 
 font-family: 'Roboto';
@@ -75,7 +71,6 @@ letter-spacing: 0.02em;
 color: #212121;
 
 }
-
 
 .email {
     position: absolute;
@@ -95,8 +90,7 @@ color: #2196F3;
 
 }
 
-
-.number {
+.tel {
     position: absolute;
 width: 122px;
 height: 16px;
@@ -114,17 +108,11 @@ color: #757575;
 
 }
 
-
-ul {
-    list-style: none;
-}
-
-
-.Text {
+.info {
     position: absolute;
 width: 696px;
 height: 120px;
-left: 600px;
+left: 580px;
 top: 230px;
 
 font-family: 'Roboto';
@@ -138,41 +126,53 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: #ffff;
 
 }
 
-
-.But {
+.but {
     position: absolute;
 width: 200px;
 height: 50px;
-left: 850px;
-top: 430px;
+left: 820px;
+top: 450px;
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-}
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+}
 
 .section {
     position: absolute;
-width: 1920px;
-height: 600px;
-left: 0px;
-top: 80px;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 80px;
 
-background: #2F303A;
-}
+    background: #2F303A;
+}   
 
-
-.info_1 {
+.hi_1 {
     position: absolute;
 width: 270px;
 height: 16px;
-left: 215px;
-top: 774px;
+left: 240px;
+top: 850px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -186,53 +186,12 @@ color: #212121;
 
 }
 
-
-.p_1 {
+.hio_1 {
     position: absolute;
 width: 270px;
 height: 75px;
-left: 215px;
-top: 800px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #757575;
-}
-
-
-.info_2 {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 570px;
-top: 774px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-
-}
-
-
-.p_2 {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 570px;
-top: 800px;
+left: 240px;
+top: 880px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -247,13 +206,12 @@ color: #757575;
 
 }
 
-
-.info_3 {
+.hi_2 {
     position: absolute;
 width: 270px;
 height: 16px;
-left: 900px;
-top: 774px;
+left: 700px;
+top: 840px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -267,13 +225,50 @@ color: #212121;
 
 }
 
-
-.p_3 {
+.hio_2 {
     position: absolute;
 width: 270px;
 height: 75px;
-left: 900px;
-top: 800px;
+left: 700px;
+top: 870px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.hi_3 {
+    position: absolute;
+width: 270px;
+height: 16px;
+left: 1150px;
+top: 840px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+
+}
+
+.hio_3 {
+    position: absolute;
+width: 270px;
+height: 75px;
+left: 1150px;
+top: 870px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -288,13 +283,12 @@ color: #757575;
 
 }
 
-
-.info_4 {
+.hi_4 {
     position: absolute;
 width: 270px;
 height: 16px;
-left: 1250px;
-top: 774px;
+left: 1600px;
+top: 840px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -308,13 +302,12 @@ color: #212121;
 
 }
 
-
-.p_4 {
+.hio_4 {
     position: absolute;
 width: 270px;
 height: 75px;
-left: 1250px;
-top: 800px;
+left: 1600px;
+top: 870px;
 
 font-family: 'Roboto';
 font-style: normal;
