@@ -321,3 +321,211 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
+
+.info_120 {
+    position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 750px;
+    top: 1050px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.WebStudio_1 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 250px;
+    top: 1200px;
+}
+
+.WebStudio_2 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 760px;
+    top: 1200px;
+}
+
+.WebStudio_3 {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1300px;
+    top: 1200px;
+}
+
+.for_team {
+    position: absolute;
+width: 264px;
+height: 42px;
+left: 810px;
+top: 1543px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.human_1 {
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 400px;
+top: 1635px;
+
+background: url(4853.jpg);
+border-radius: 0px;
+}
+
+.human_2 {
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 700px;
+top: 1635px;
+
+background: url(5844.jpg);
+border-radius: 0px;
+}
+
+.human_3 {
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 1000px;
+top: 1635px;
+
+background: url(16166.jpg);
+border-radius: 0px;
+}
+
+.human_4 {
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 1300px;
+top: 1635px;
+
+background: url(2968.jpg);
+border-radius: 0px;
+}
+
+.footer {
+    position: absolute;
+width: 1920px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+}
+
+.item {
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 10px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+}
+
+.h5_kyiv {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+
+.email_20 {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 70px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+.tel_21 {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 110px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
