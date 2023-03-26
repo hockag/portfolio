@@ -1,11 +1,11 @@
-.logo {
+ .logo {
     position: absolute;
     width: 145px;
 height: 31px;
 left: 215px;
 top: 7px;
 
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -25,7 +25,7 @@ color: #2196F3;
     left: 550px;
     top: 32px;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -43,7 +43,7 @@ color: #2196F3;
     left: 650px;
     top: 32px;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -61,7 +61,7 @@ height: 16px;
 left: 770px;
 top: 32px;
 
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -156,6 +156,11 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 
 }
+
+.but:hover {
+    cursor: pointer;
+}
+
 
 .section {
     position: absolute;
@@ -390,9 +395,15 @@ width: 270px;
 height: 260px;
 left: 400px;
 top: 1635px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
 
-
-border-radius: 0px;
+.human_1:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s;
+    cursor: pointer;
 }
 
 .human_2 {
@@ -402,8 +413,15 @@ height: 260px;
 left: 700px;
 top: 1635px;
 
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
 
-border-radius: 0px;
+.human_2:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s;
+    cursor: pointer;
 }
 
 .human_3 {
@@ -417,6 +435,12 @@ top: 1635px;
 border-radius: 0px;
 }
 
+.human_3:hover{
+    transform: scale(1.1);
+    transition: transform 0.25s;
+    cursor: pointer;
+}
+
 .human_4 {
     position: absolute;
 width: 270px;
@@ -426,6 +450,12 @@ top: 1635px;
 
 
 border-radius: 0px;
+}
+
+.human_4:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s;
+    cursor: pointer;
 }
 
 .footer {
@@ -516,4 +546,138 @@ letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 
+}
+ 
+
+.Igor {
+    position: absolute;
+width: 130px;
+height: 19px;
+left: 470px;
+top: 1900px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+text-align: center;
+letter-spacing: 0.03em
+
+}
+
+.product {
+    position: absolute;
+width: 130px;
+height: 19px;
+left: 470px;
+top: 1954px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.Olga {
+    position: absolute;
+    width: 104px;
+    height: 19px;
+    left: 800px;
+    top: 1900px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.Front-end {
+    position: absolute;
+width: 147px;
+height: 19px;
+left: 780px;
+top: 1954px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px; 
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.Mykola {
+    position: absolute;
+width: 130px;
+height: 19px;
+left: 1070px;
+top: 1900px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.Mark {
+    position: absolute;
+width: 76px;
+height: 19px;
+left: 1080px;
+top: 1954px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.Mychaylo {
+    position: absolute;
+width: 145px;
+height: 19px;
+left: 1370px;
+top: 1900px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.UI {
+    position: absolute;
+width: 87px;
+height: 19px;
+left: 1380px;
+top: 1954px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
 }
